@@ -15,10 +15,10 @@ after('like @AfterClass in TestNG', () => {
 afterEach('like @AfterMethod in TestNG', () => {
     // run after each test case
 })
-it('Opening a Web Application', () => {
+it.skip('Opening a Web Application', () => {
     cy.visit('/registration_form');
 })
-it('Test 2', () => {
+xit('Test 2', () => {
     expect(false).to.equal(false);
 })
 it('Test 3', () => {
